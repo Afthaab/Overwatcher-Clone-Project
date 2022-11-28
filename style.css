@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box video{
+    position: relative;
+    background-image: url(images/bacjgroundimages/Silver_Background.jpg);
+    
+}
+
+.ow_overlay {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    top: 10%;
+}
+
+.ow_overlay_image {
+    width: 50%;
+    height: auto;
+}
+
+.ow_overlay_text {
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    font-family: "Big Noodle Too", impact, sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.ow_overlay_button {
+    width: 10rem;
+    height: 4rem;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+}
+.ow_section {
+    background-image: url(images/bacjgroundimages/Silver_Background.jpg);
+}
+.ow_section_text{
+    font-size: 3.5rem;
+}
+.ow_section_text1{
+    text-align: justify;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.ow_section_1{
+    background-image: url(images/bacjgroundimages/dark\ blue\ background.jpg);
+}
+.ow_section_1_button{
+    width: 15rem;
+    height: 4rem;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+}
+.card{
+      width: 18rem; height: 20rem; background-color: #1d2236;
+      color: #bdbfc6;
+}
+.card-img-top:hover {
+    scale: 110%;
+}
+.card-img-top{
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.card-text{
+    filter: brightness(70%);
+}
+.card-text:hover{
+    filter: brightness(100%);
+}
+.text_heading{
+    font-size: xx-large !important;
+    font-weight: 600;
+    overflow: hidden;
+}
+.text_description{
+    font-size: large;
+    font-weight: 600;
+}
+.head-portion{
+    position: relative ;
+}
+.portion{
+    width: 100%;
+}
+.buttonofportion{
+    position: absolute;
+    top: 40%;
+    align-content: center;
+}
+
+.ow_footer{
+    background-image: linear-gradient(to right, #121524,#232941,#121524);
+
+}
+.d-flex{
+    list-style: none;
+    justify-content: center;
+}
+.d-flex li{
+    padding-right: 4rem;
+    filter: brightness(50%);
+}
+
+/* hovering the footer */
+.d-flex li:hover{
+    filter: brightness(100%);
+}
+.ow_section_text2{
+    filter: brightness(50%);
+    text-align: justify;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.ow_section_text2:hover{
+    filter: brightness(100%);
+}
+.lead{
+    filter: brightness(50%);
+}
+.lead:hover{
+    filter: brightness(100%);
+}
+
